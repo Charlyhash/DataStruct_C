@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="poj1015.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{70A9B576-6B70-4613-B57D-8A36F3ACAD66}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
