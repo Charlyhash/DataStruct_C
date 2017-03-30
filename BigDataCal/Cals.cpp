@@ -39,7 +39,7 @@ string Add(string s1, string s2)
 	return s1;
 }
 
-//乘法，s1与s2
+//乘法，s1与s2 poj
 //让s1的每一位与s2相乘，然后再调用大数加法
 string Multiply(string s1, string s2)
 {
@@ -103,28 +103,6 @@ string Multiply2(string s1, string s2)
 	
 	return res.substr(i);
 }
-
-
-string Sub(string s1, string s2)
-{
-	//init
-	string s;
-	int len1 = s1.size();
-	int len2 = s2.size();
-	int flag1 = 0;
-	int flag2 = 0;
-	int flag3 = 0;
-	if (s1[0] == '-') flag1 = 1;
-	if (s2[0] == '-') flag2 = 1;
-	string str1, str2;
-	for (int t = 0, int i = len1 - 1; i >= 0 && s1[i] >= '0' && s1[i] <= '9'; --i)
-		str1[t++] = s1[i] - '0';
-	for (int t = 0, int i = len1 - 1; i >= 0 && s2[i] >= '0' && s2[i] <= '9'; --i)
-		str2[t++] = s2[i] - '0';
-
-
-}
-
 
 void TEST_ADD()
 {

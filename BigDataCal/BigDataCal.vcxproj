@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cals.cpp" />
+    <ClCompile Include="poj2756-大数减法.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D1667D64-2729-423A-93FA-9FE1C6B3454A}</ProjectGuid>
