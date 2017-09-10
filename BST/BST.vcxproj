@@ -150,7 +150,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearchTree.cpp" />
-    <ClCompile Include="dp2.cpp" />
     <ClCompile Include="testBST.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
