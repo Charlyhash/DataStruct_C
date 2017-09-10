@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <malloc.h>
 #include <string.h>
+#include <algorithm>
 #define LENGTH(a) ((sizeof(a))/(sizeof(a[0])))
 #define SWAP(a, b) (a^=b, b^=a, a^=b)
+
+auto f = [](int x, int y) {x ^= y; y ^= x; x ^= y; };
 
 //ц╟ещеепР1
 void BubbleSort(int a[], int n)
@@ -16,14 +19,14 @@ void BubbleSort(int a[], int n)
 		{
 			if (a[j] > a[j + 1])
 			{
-				tmp = a[j];
-				a[j] = a[j + 1];
-				a[j + 1] = tmp;
+				f(a[j], a[j - 1]);
+				//tmp = a[j];
+				//a[j] = a[j + 1];
+				//a[j + 1] = tmp;
 			}
 		}
 	}
 }
-
 
 //ц╟ещеепР2
 void BubbleSort2(int arr[], int n)

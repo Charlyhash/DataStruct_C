@@ -56,7 +56,6 @@ BinNode* GetMinNode(BinHeap heap)
 	return y;
 }
 
-
 //将h1,h2的根表合并为一个按度数单调递增的链表
 static BinHeap MergeBinHeap(BinHeap h1, BinHeap h2)
 {
